@@ -2,6 +2,47 @@ import { motion } from 'framer-motion'
 import coupleSelfieImg from '../assets/time line 4/IMG-20250727-WA0008.jpg'
 import artGalleryImg from '../assets/time line 5/PXL_20251226_095721142.MP.jpg'
 
+import t1_img1 from '../assets/TImeline 1/IMG-20250422-WA0015.jpg'
+import t1_img2 from '../assets/TImeline 1/IMG_20260212_195850_812.jpg'
+import t1_img3 from '../assets/TImeline 1/motion_photo_8877342918544580175.jpg'
+
+// ── Timeline 2: Making it Official ──
+import t2_img1 from '../assets/time line 2/IMG-20250422-WA0015.jpg'
+import t2_img2 from '../assets/time line 2/IMG_20260212_195252_214.jpg'
+import t2_img3 from '../assets/time line 2/IMG_20260212_195324_991.jpg'
+import t2_img4 from '../assets/time line 2/IMG_20260212_195442_306.jpg'
+import t2_img5 from '../assets/time line 2/IMG_20260212_195546_693.jpg'
+import t2_img6 from '../assets/time line 2/IMG_20260212_195856_182.jpg'
+
+// ── Timeline 3: Our First Adventure ──
+import t3_img1 from '../assets/time line 3/IMG-20250330-WA0017.jpg'
+import t3_img2 from '../assets/time line 3/IMG-20250521-WA0005.jpg'
+import t3_img3 from '../assets/time line 3/IMG_20260212_195008_736.jpg'
+import t3_img4 from '../assets/time line 3/IMG_20260212_195057_191.jpg'
+import t3_img5 from '../assets/time line 3/IMG_20260212_195800_820.jpg'
+import t3_img6 from '../assets/time line 3/Screenshot_20260212-195229.png'
+
+// ── Timeline 4: Home Sweet Home ──
+import t4_img1 from '../assets/time line 4/IMG-20250330-WA0016.jpg'
+import t4_img2 from '../assets/time line 4/IMG-20250521-WA0006.jpg'
+import t4_img3 from '../assets/time line 4/IMG-20250606-WA0011.jpg'
+import t4_img4 from '../assets/time line 4/IMG-20250727-WA0008.jpg'
+
+// ── Timeline 5: Asking the Question (Today) ──
+import t5_img1 from '../assets/time line 5/IMG-20251113-WA0010.jpg'
+import t5_img2 from '../assets/time line 5/IMG-20260121-WA0049.jpg'
+import t5_img3 from '../assets/time line 5/IMG-20260121-WA0054.jpg'
+import t5_img4 from '../assets/time line 5/PXL_20251212_114007606.MP.jpg'
+import t5_img5 from '../assets/time line 5/PXL_20251212_114021043.MP.jpg'
+import t5_img6 from '../assets/time line 5/PXL_20251226_095721142.MP.jpg'
+import t5_img7 from '../assets/time line 5/Snapchat-1361794491.jpg'
+import t5_img8 from '../assets/time line 5/Snapchat-1509332301 2.jpg'
+import t5_img9 from '../assets/time line 5/Snapchat-1820994471 2.jpg'
+import t5_img10 from '../assets/time line 5/Snapchat-1907154556.jpg'
+import t5_img11 from '../assets/time line 5/Snapchat-214728483.jpg'
+import t5_img12 from '../assets/time line 5/Snapchat-497164607.jpg'
+
+
 export default function Celebration() {
   return (
     <section
@@ -65,7 +106,7 @@ export default function Celebration() {
             viewport={{ once: true }}
             transition={{ ease: 'easeOut', duration: 0.8, delay: 0.4 }}
           >
-            Here's to two amazing years and many more to come. Thank you for making every moment special. I've prepared something special for our future together.
+            Here's to two amazing years and many more to come. Thank you for making every moment special.
           </motion.p>
 
           <motion.p
@@ -133,7 +174,7 @@ export default function Celebration() {
             >
               {/* TODO: Replace with your image path */}
               <img 
-                src={coupleSelfieImg} 
+                src={t1_img1} 
                 alt="Celebration Photo 1" 
                 className="w-full h-full object-cover"
               />
@@ -149,7 +190,7 @@ export default function Celebration() {
             >
               {/* TODO: Replace with your image path */}
               <img 
-                src={artGalleryImg} 
+                src={t5_img1} 
                 alt="Celebration Photo 2" 
                 className="w-full h-full object-cover"
               />

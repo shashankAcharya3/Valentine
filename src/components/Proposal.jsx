@@ -122,7 +122,7 @@ export default function Proposal({ onYes }) {
           <span className="text-brand-pink italic">Question</span>...
         </h2>
         <p className="text-brand-muted text-lg md:text-xl max-w-lg mx-auto mb-16">
-          After two years of laughter, adventures, and endless memories, there's just one thing left to ask.
+          WILL YOU BE MY VALENTINE.!
         </p>
 
         {/* Buttons */}

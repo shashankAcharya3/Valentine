@@ -60,7 +60,7 @@ export default function Hero() {
           {...fadeUp}
           transition={{ ...fadeUp.transition, delay: 0.3 }}
         >
-          Two years of laughter, growth, and endless love.
+          Two years of laughter, growth, and endless love. Jyotsana
         </motion.p>
 
         {/* CTA Button */}
