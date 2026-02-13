@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #ee2b5b;
+  --color-brand-pink-light: #f94c75;
+  --color-brand-pink-dark: #c41e49;
+  --color-brand-cream: #FCF9F7;
+  --color-brand-rose: #FEE2E2;
+  --color-brand-rose-light: #FFF1F2;
+  --color-brand-dark: #1F2937;
+  --color-brand-muted: #6B7280;
+  --color-brand-gold: #D4A853;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-script: 'Dancing Script', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-pink);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-pink-dark);
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--color-brand-rose);
+  color: var(--color-brand-pink-dark);
+}
